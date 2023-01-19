@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Inicio · La Galería Ecléctica</title>
@@ -18,10 +18,10 @@
         </div>
     </div>
     <a href="index.html">
-        <img src="assets/img/logo.png"/>
+        <img src="assets/img/logo.png" alt="logo de Galería Ecléctica"/>
     </a>
     <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+        <button value="Colapsa el menú" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -41,14 +41,17 @@
         <div class="fila">
             <div class="dos-columnas">
                 <a href="expo-detalle.html">
-                    <img src="assets/img/expo-cezanne.jpg"/>
+                    <img 
+                    src="assets/img/expo-cezanne.jpg" 
+                    alt="Pintura de Paul Cezanne: 'Los jugadores de cartas' de 1892"/>
                 </a>
                 <a href="expo-detalle.html"><h3>Impresiones </h3></a>
                 <p>Hasta abril de 2019</p>
             </div>
             <div class="dos-columnas">
                 <a href="#">
-                    <img src="assets/img/expo-caravaggio.jpg"/>
+                    <img src="assets/img/expo-caravaggio.jpg" 
+                    alt="Pintura de Caraggio: 'La negación de San Pedro' de 1610"/>
                 </a>
                 <a href="#"> <h3>Caravaggio: el pintor del claroscuro </h3></a>
                 <p>Hasta mayo de 2019</p>
@@ -60,7 +63,7 @@
         <h2> Exposiciones actuales</h2>
         <div class="fila">
             <div class="tres-columnas">
-                <img src="assets/img/activ-guide.jpg"/>
+                <img src="assets/img/activ-guide.jpg" />
                 <h3>Visita guiada a la colección de LAGaEC </h3>
                 <p>Jueves a las 12 h. Sábados a las 10 h. Actividad gratuita con inscripción previa</p>
             </div>
@@ -83,15 +86,15 @@
             <div class="dos-columnas">
                 <h3>Horario</h3>
                 <ul>
-                    <li> Lunes, miércoles, jueves y viernes: 11 h a 19.30 h </li>
+                    <li>Lunes, miércoles, jueves y viernes: 11 h a 19.30 h</li>
                     <li>Sábados: 10 h a 20 h</li>
-                    <li> Domingos y festivos: 10 h a 15 h</li>
-                    <li> Martes no festivos: cerrado</li>
+                    <li>Domingos y festivos: 10 h a 15 h</li>
+                    <li>Martes no festivos: cerrado</li>
                 </ul>
                 <h3>Dirección</h3>
                 <p>
                     <a href="https://www.google.com/maps/place/Rambla+del+Poblenou,+1,+08005+Barcelona/@41.3975104,2.2034485,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a36b1db3ec85:0xbfaec3c0c8fd3ae2!8m2!3d41.3975104!4d2.2056372" target="_blank">
-                         Plaza del Poblenou, 1 <br>08018 Barcelona (ver mapa+)
+                         Plaza del Poblenou, 1<br>08018 Barcelona (ver mapa+)
                     </a>
                 </p>
 
@@ -99,10 +102,10 @@
             <div class="dos-columnas">
                 <h3>Precios</h3>
                 <p>Entrada: 10 €.
-                <span>Permite acceder a todas las exposiciones en curso tantas veces como se quiera durante un mes a partir de la fecha de compra. Es necesario activar la entrada. </span>
+                <span>Permite acceder a todas las exposiciones en curso tantas veces como se quiera durante un mes a partir de la fecha de compra. Es necesario activar la entrada.</span>
                 <p>
                 <p>Entrada reducida: 5 €.
-                <span>Para estudiantes y para mayores de 65 años. </span>
+                <span>Para estudiantes y para mayores de 65 años.</span>
             </p>
                 <p>Grupos: Consultar condiciones: <a href="mailto:reservas@lagaec.org">reservas@lagaec.org</a> </p>
                 <button class="btn btn-secondary">Comprar entradas</button>
@@ -115,29 +118,34 @@
     <div class="container pie">
         <h4>La Galería Ecléctica</h4>
         <a href="#">
-            Plaza del Poblenou, 1 <br>
+            Plaza del Poblenou, 1<br>
             08018 Barcelona
         </a>
         <div class="rrss">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <a href="#" ><i class="fab fa-facebook-square" title="enlace a la página de facebook"></i></a>
+            <a href="#" ><i class="fab fa-twitter-square" title="enlace a la página de twitter"></i></a>
+            <a href="#" ><i class="fab fa-instagram" title="enlace a la página de instagram"></i></a>
+            <a href="#" ><i class="fab fa-youtube-square" title="enlace a la página de youtube"></i></a>
         </div>
 
         <form>
             <h4>Suscríbete a nuestra Newsletter</h4>
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Enter email">
+                <label>
+                    <input type="email" class="form-control" placeholder="Enter email"> 
+                </label>
+                
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input">
+                <label>
+                    <input type="checkbox" class="form-check-input">
+                </label>
                 <label class="form-check-label">Acepto la <a href="#">Política de privacidad </a></label>
             </div>
             <button type="submit" class="btn btn-secondary">Registrarme</button>
         </form>
         <a href="index.html" class="logo">
-            <img src="assets/img/logo.png"/>
+            <img src="assets/img/logo.png" alt="logo de Galería Ecléctica"/>
         </a>
         <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
             <div class="navbar-nav">
