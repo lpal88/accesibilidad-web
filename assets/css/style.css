@@ -152,9 +152,7 @@ main{
     padding-left: 0px;
     padding-right: 0px;
 }
-main.container-fluid h1 {
-    color: #268170
-}
+
 
 .detalle-cabecera{
     background: url("../img/expo-degas.jpg");
