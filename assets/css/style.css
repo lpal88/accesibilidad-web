@@ -4,28 +4,31 @@
 /* GENÉRICO */
 
 .bg-verde-claro{
-    background: #E8F8F5;
+    background: #f4fcfa;
 }
 .bg-verde-oscuro{
-    background: #48C9B0;
+    background: #268170;
 }
-
+.bg-verde-oscuro th {
+    color: white; 
+    background-color: rgb(38, 129, 112);
+}
 
 .font-verde-claro{
-    color: #E8F8F5;
+    color: #f4fcfa;
 }
 .font-verde-oscuro{
-    color: #48C9B0;
+    color: #268170;
 }
 a{
-    color: #48C9B0 ;
+    color: #268170 ;
 }
 a:hover{
     color: #6c757d ;
 }
 
-h3{
-    color: #48C9B0 ;
+h2{
+    color: #268170 ;
 }
 
 main img{
@@ -70,7 +73,7 @@ header > a{
 
 .navbar{
     justify-content: center;
-    background: #E8F8F5;
+    background: #f4fcfa;
 }
 .navbar-light .navbar-nav .nav-link{
     text-align: center;
@@ -81,7 +84,7 @@ header > a{
 }
 .breadcrumb{
     margin-bottom: 0px;
-    background: #F8F9F9;
+    background: #f4fcfa;
 }
 .breadcrumb li{
     color:#222;
@@ -149,6 +152,10 @@ main{
     padding-left: 0px;
     padding-right: 0px;
 }
+main.container-fluid h1 {
+    color: #268170
+}
+
 .detalle-cabecera{
     background: url("../img/expo-degas.jpg");
     min-height: 350px;
@@ -186,7 +193,7 @@ main{
 .donar-cabecera h1,
 .detalle-cabecera  h1{
     color: #fff;
-    background: #48C9B0;
+    background: #268170;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
@@ -198,11 +205,11 @@ main{
 }
 
 
-tbody tr:nth-child(even) { background: #E8F8F5 }
+tbody tr:nth-child(even) { background: #f4fcfa }
 /* PIE DE PÁGINA  */
 
 footer{
-    background: #E8F8F5;
+    background: #f4fcfa;
     padding-top: 50px;
 
 }
@@ -257,7 +264,7 @@ footer.container-fluid{
 .creditos{
     background: #5A6268;
     margin-top: 30px;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -267,7 +274,8 @@ footer.container-fluid{
     margin: 0 auto;
 }
 .creditos a{
-    color: #48C9B0 ;
+    color: #f4fcfa;
+    text-decoration:underline;
 }
 .creditos a:hover{
     color: #007bff ;
