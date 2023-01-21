@@ -213,8 +213,9 @@ footer{
     padding-top: 50px;
 
 }
-footer i{
+footer .fab{
     font-size: 1.25rem;
+    display: inline;
 }
 footer .pie{
     display: flex;
