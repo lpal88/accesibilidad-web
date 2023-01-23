@@ -1,8 +1,7 @@
-
-
-
 /* GENÉRICO */
-
+* {
+    font-size: 1.2rem;
+}
 .bg-verde-claro{
     background: #f4fcfa;
 }
@@ -11,7 +10,7 @@
 }
 .bg-verde-oscuro th {
     color: white; 
-    background-color: rgb(38, 129, 112);
+    background-color:#268170 ;
 }
 
 .font-verde-claro{
@@ -70,7 +69,9 @@ header > a{
     display: flex;
     justify-content: center;
 }
-
+.nav-link {
+    color:black;
+}
 .navbar{
     justify-content: center;
     background: #f4fcfa;
@@ -102,7 +103,7 @@ header > a{
 }
 .submenu .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.5rem;
 }
 /* MAIN */
 main{
@@ -144,7 +145,7 @@ main{
 
 
 .planifica-visita span{
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 /* DETALLE */
@@ -182,8 +183,9 @@ main{
 .detalle-cabecera > .container{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     min-height: 400px;
 
 }
@@ -192,11 +194,18 @@ main{
 .detalle-cabecera  h1{
     color: #fff;
     background: #268170;
+    width: 30%;
+    
+}
+.detalle-cabecera  h2 {
+    background: #268170;
+    width: 50%;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
     color: #fff;
-    width: 100%;
+
+
 }
 .detalle-cabecera button{
     margin-top: 10px;
@@ -212,7 +221,7 @@ footer{
 
 }
 footer .fab{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     display: inline;
 }
 footer .pie{
